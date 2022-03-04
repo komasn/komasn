@@ -11,13 +11,8 @@
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-
-  graph LR
-  　　ID1[ノード1] -- リンク --> ID2((ノード2));
-  　　ID3 --> ID2;
-  
+      ID1[Aさん]-->ID2[Bくん];
+      ID1-->ID3[Cちゃん];
+      ID2-->ID4[Dちゃろ];
+      ID3-->ID4;
 ```
